@@ -1,3 +1,4 @@
+
 -- DROP DATABASE IF EXISTS profilesdb;
 -- CREATE DATABASE profilesdb;
 
@@ -7,3 +8,4 @@
 --     id INT NOT NULL AUTO_INCREMENT,
 
 -- );
+
