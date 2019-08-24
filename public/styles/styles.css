@@ -1,3 +1,65 @@
 .list-group-item {
   line-height: 2.5;
 }
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+#wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.jumbotron {
+  margin-top: 2%;
+  text-align: center;
+  background-image: linear-gradient(to bottom, #f17fd9, #ecee86);
+  border-style: solid;
+  border-color: white;
+  border-width: 4px;
+}
+
+.form-group {
+  text-align: justify;
+}
+
+.btn {
+  background-image: linear-gradient(to bottom, #e6e9e8, #6b6d6d);
+  border-color: rgb(105, 105, 105);
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  width: 112px;
+  transition: .1s;
+  color: black;
+}
+
+.btn:hover {
+  background-image: linear-gradient(to bottom, #dbdbdb, #262627);
+  color: #f17fd9;
+  border-color: black;
+  font-family: 'Pacifico', cursive;
+  box-shadow: 2px 2px 2px 2px;
+  transform: scale(1.1);
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+}
+
+#headText {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+img {
+  width: 60%;
+}
+
+img:hover {
+}
+
+#upload {
+  text-align: justify;
+}
