@@ -78,7 +78,117 @@ let profilesArray = [
         city: 'Iron Islands',
         email: 'blackwind@gmail.com',
         medium: 'Full Stack Dev'
-    }
+    },
+
+    {
+        name: 'Stringer Bell',
+        age: '33',
+        photo: '/Project2/public/assets/images/stringer.jpg',
+        city: 'Baltimore',
+        email: 'collegestudent@gmail.com',
+        medium: 'Pina Colada Enthusiast'
+    },
+
+    {
+        name: 'Omar Little',
+        age: '35',
+        photo: '/Project2/public/assets/images/omar.jpg',
+        city: 'Baltimore',
+        email: 'omar_coming@gmail.com',
+        medium: 'Full Stack Dev'
+    },
+
+    {
+        name: 'Jimmy McNulty',
+        age: '32',
+        photo: '/Project2/public/assets/images/mcnulty.jpg',
+        city: 'Baltimore',
+        email: 'copguy@gmail.com',
+        medium: 'Pina Colada Enuthusiast'
+    },
+
+    {
+        name: 'Bunk',
+        age: '36',
+        photo: '/Project2/public/assets/images/bunk.jpg',
+        city: 'Baltimore',
+        email: 'dissapointed@gmail.com',
+        medium: 'Dev Coach'
+    },
+
+    {
+        name: 'Cedric Daniels',
+        age: '41',
+        photo: '/Project2/public/assets/images/daniels.jpg',
+        city: 'Baltimore',
+        email: 'commish@gmail.com',
+        medium: 'Musician'
+    },
+
+    {
+        name: 'Avon Barksdale',
+        age: '27',
+        photo: '/Project2/public/assets/images/avon.jpg',
+        city: 'Baltimore',
+        email: 'king@gmail.com',
+        medium: 'Visual Artist'
+    },
+
+    {
+        name: 'Elaine Benes',
+        age: '32',
+        photo: '/Project2/public/assets/images/elaine.jpg',
+        city: 'New York',
+        email: 'get_out@gmail.com',
+        medium: 'Developer'
+    },
+
+    {
+        name: 'Jerry Seinfeld',
+        age: '35',
+        photo: '/Project2/public/assets/images/jerry.jpg',
+        city: 'New York',
+        email: 'whats_the_deal@gmail.com',
+        medium: 'Photographer'
+    },
+
+    {
+        name: 'Cosmo Kramer',
+        age: '37',
+        photo: '/Project2/public/assets/images/kramer.jpg',
+        city: 'New York',
+        email: 'giddy_up@gmail.com',
+        medium: 'Musician'
+    },
+
+    {
+        name: 'George Costanza',
+        age: '35',
+        photo: '/Project2/public/assets/images/george.jpg',
+        city: 'New York',
+        email: 'gettin_upset@gmail.com',
+        medium: 'Visiual Artist'
+    },
+
+    {
+        name: 'Walter White',
+        age: '41',
+        photo: '/Project2/public/assets/images/walter.jpg',
+        city: 'Albuquerque',
+        email: 'who_knocks@gmail.com',
+        medium: 'Photographer'
+    },
+
+    {
+        name: 'Jesse Pinkman',
+        age: '21',
+        photo: '/Project2/public/assets/images/jesse.jpg',
+        city: 'Albuquerque',
+        email: 'science@gmail.com',
+        medium: 'Developer'
+    },
+
+   
 ];
 
 module.exports = profilesArray;
