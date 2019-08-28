@@ -1,5 +1,11 @@
-DROP DATABASE IF EXISTS exampledb;
-CREATE DATABASE exampledb;
 
-DROP DATABASE IF EXISTS testdb;
-CREATE DATABASE testdb;
+-- DROP DATABASE IF EXISTS profilesdb;
+-- CREATE DATABASE profilesdb;
+
+-- USE profilesdb;
+
+-- CREATE TABLE profiles (
+--     id INT NOT NULL AUTO_INCREMENT,
+
+-- );
+
