@@ -1,4 +1,7 @@
 {
+    "parserOptions": { 
+        "ecmaVersion": 6 
+    },
     "env": {
         "browser": true,
         "commonjs": true,
@@ -33,7 +36,6 @@
         "semi": [
             "error",
             "always"
-        ],
-        "prettier/prettier": "error"
+        ]
     }
 }

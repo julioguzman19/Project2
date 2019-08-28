@@ -3,7 +3,7 @@ require("dotenv").config();
 
 //Requiring dependencies
 const express = require("express");
-const path = require("path");
+// const path = require("path");
 
 // Tells node that we are creating an "express" server
 const app = express();
