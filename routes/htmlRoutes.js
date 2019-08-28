@@ -1,27 +1,20 @@
-var db = require("../models");
+// We need to include the path package to get the correct file path for our html
+var path = require("path");
+
+// ROUTING
 
 module.exports = function(app) {
-  // Load index page
-  app.get("/", function(req, res) {
-    db.Example.findAll({}).then(function(dbExamples) {
-      res.render("index", {
-        msg: "Welcome!",
-        examples: dbExamples
-      });
-    });
+// HTML GET Requests
+// Below code handles when users "visit" a page.
+// In each of the below cases the user is shown an HTML page of content
+// ---------------------------------------------------------------------------
+  
+  app.get("./ready", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/html/ready.html"));
   });
-
-  // Load example page and pass in an example by id
-  app.get("/example/:id", function(req, res) {
-    db.Example.findOne({ where: { id: req.params.id } }).then(function(dbExample) {
-      res.render("example", {
-        example: dbExample
-      });
-    });
-  });
-
-  // Render 404 page for any unmatched routes
+    
+// If no matching route is found default to home
   app.get("*", function(req, res) {
-    res.render("404");
+    res.sendFile(path.join(__dirname, "../public/html/landing.html"));
   });
 };
