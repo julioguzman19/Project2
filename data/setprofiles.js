@@ -7,6 +7,7 @@ let profilesArray = [
     email: "dragonqueen@gmail.com",
     medium: "Project Manager"
   },
+
   {
     name: "Jon Snow",
     age: "23",
@@ -15,6 +16,7 @@ let profilesArray = [
     email: "kingofthenorth@gmail.com",
     medium: "Scrum Master"
   },
+
   {
     name: "Robb Stark",
     age: "26",
@@ -23,6 +25,7 @@ let profilesArray = [
     email: "redweddinglover@yahoo.com",
     medium: "Wedding Planner"
   },
+
   {
     name: "Bran Stark",
     age: "12",
@@ -31,6 +34,7 @@ let profilesArray = [
     email: "crowseye@gmail.com",
     medium: "Full Stack Dev"
   },
+
   {
     name: "Margaery Tyrell",
     age: "19",
@@ -39,6 +43,7 @@ let profilesArray = [
     email: "flutist@yahoo.com",
     medium: "Musician"
   },
+
   {
     name: "Ygritte",
     age: "21",
@@ -47,6 +52,7 @@ let profilesArray = [
     email: "freefolk@gmail.com",
     medium: "UXD"
   },
+
   {
     name: "Cersei Lannister",
     age: "35",
@@ -55,6 +61,7 @@ let profilesArray = [
     email: "brotherluver@yahoo.com",
     medium: "Project Manager"
   },
+
   {
     name: "Sansa Stark",
     age: "17",
@@ -63,6 +70,7 @@ let profilesArray = [
     email: "starkrebel@gmail.com",
     medium: "Back End Dev"
   },
+
   {
     name: "Arya Stark",
     age: "15",
@@ -71,6 +79,7 @@ let profilesArray = [
     email: "needle@gmail.com",
     medium: "Dev Coach"
   },
+
   {
     name: "Yara Greyjoy",
     age: "17",
