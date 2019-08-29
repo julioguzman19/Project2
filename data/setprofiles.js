@@ -122,7 +122,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/daniels.jpg",
     city: "Baltimore",
     email: "commish@gmail.com",
-    medium: "Musician"
+    medium: "Back End Dev"
   },
 
   {
@@ -131,7 +131,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/avon.jpg",
     city: "Baltimore",
     email: "king@gmail.com",
-    medium: "Visual Artist"
+    medium: "Project Manager"
   },
 
   {
@@ -140,7 +140,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/elaine.jpg",
     city: "New York",
     email: "get_out@gmail.com",
-    medium: "Developer"
+    medium: "UXD"
   },
 
   {
@@ -149,7 +149,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/jerry.jpg",
     city: "New York",
     email: "whats_the_deal@gmail.com",
-    medium: "Photographer"
+    medium: "Musician"
   },
 
   {
@@ -158,7 +158,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/kramer.jpg",
     city: "New York",
     email: "giddy_up@gmail.com",
-    medium: "Musician"
+    medium: "Full Stack Dev"
   },
 
   {
@@ -167,7 +167,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/george.jpg",
     city: "New York",
     email: "gettin_upset@gmail.com",
-    medium: "Visiual Artist"
+    medium: "Wedding Planner"
   },
 
   {
@@ -176,7 +176,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/walter.jpg",
     city: "Albuquerque",
     email: "who_knocks@gmail.com",
-    medium: "Photographer"
+    medium: "Scrum Master"
   },
 
   {
@@ -185,7 +185,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/jesse.jpg",
     city: "Albuquerque",
     email: "science@gmail.com",
-    medium: "Developer"
+    medium: "Project Manager"
   }
 ];
 
