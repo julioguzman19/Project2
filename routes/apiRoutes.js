@@ -1,26 +1,15 @@
-var db = require("../models");
-
+// Pull in the characters
+const profiles = require("../data/setprofiles.js");
+// Export routes
 module.exports = function(app) {
-  // Get all examples
-  app.get("/api/examples", function(req, res) {
-    db.Users.findAll({}).then(function(dbExamples) {
-      res.json(dbExamples);
-    });
+  app.get("/api/setprofiles", function(req, res) {
+    res.json(profiles);
   });
-
-  // Create a new example
-  app.post("/api/examples", function(req, res) {
-    db.Users.create(req.body).then(function(dbExample) {
-      res.json(dbExample);
-    });
-  });
-
-  // Delete an example by id
-  app.delete("/api/examples/:id", function(req, res) {
-    db.Users.destroy({ where: { id: req.params.id } }).then(function(
-      dbExample
-    ) {
-      res.json(dbExample);
-    });
+  app.post("/api/setprofiles", function(req, res) {
+    //userProfile will give you 4 attributes in newProfile on ready.html page
+    //4 values we decided to get from user
+    let userProfile = req.body;
+    console.log("from apiRoute.js : " + userProfile);
+    res.json("test");
   });
 };
