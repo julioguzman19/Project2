@@ -3,7 +3,7 @@ require("dotenv").config();
 //Requiring dependencies
 const express = require("express");
 // const path = require("path");
-
+const db = require("./models")
 // Tells node that we are creating an "express" server
 const app = express();
 
@@ -22,9 +22,16 @@ app.use(express.static("public"));
 require("./routes/apiRoutes")(app);
 require("./routes/htmlRoutes")(app);
 
+
+const syncOptions = {
+  force: false
+}
 // LISTENER
 // The below code effectively "starts" our server
 
-app.listen(PORT, function() {
-  console.log("App listening on PORT: " + PORT);
+db.sequelize.sync(syncOptions).then(() => {
+  app.listen(PORT, function () {
+    console.log("App listening on PORT: " + PORT);
+  });
 });
+
