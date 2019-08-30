@@ -5,7 +5,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/daenerys.webp",
     city: "Essos",
     email: "dragonqueen@gmail.com",
-    medium: "Project Manager"
+    medium: "Developer"
   },
 
   {
@@ -14,7 +14,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/jon.jpg",
     city: "The Wall",
     email: "kingofthenorth@gmail.com",
-    medium: "Scrum Master"
+    medium: "Developer"
   },
 
   {
@@ -23,7 +23,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/robstark.jpg",
     city: "Winterfell",
     email: "redweddinglover@yahoo.com",
-    medium: "Wedding Planner"
+    medium: "Visual Artist"
   },
 
   {
@@ -32,7 +32,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/bran.jpg",
     city: "Winterfell",
     email: "crowseye@gmail.com",
-    medium: "Full Stack Dev"
+    medium: "Visual Artist"
   },
 
   {
@@ -50,7 +50,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/ygritte.jpg",
     city: "Beyond the Wall",
     email: "freefolk@gmail.com",
-    medium: "UXD"
+    medium: "Musician"
   },
 
   {
@@ -59,7 +59,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/cersei.webp",
     city: "Westeros",
     email: "brotherluver@yahoo.com",
-    medium: "Project Manager"
+    medium: "Photographer"
   },
 
   {
@@ -68,7 +68,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/sansa.webp",
     city: "Winterfell",
     email: "starkrebel@gmail.com",
-    medium: "Back End Dev"
+    medium: "Photographer"
   },
 
   {
@@ -77,7 +77,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/arya.webp",
     city: "Winterfell",
     email: "needle@gmail.com",
-    medium: "Dev Coach"
+    medium: "Piña Colada Enthusiast"
   },
 
   {
@@ -86,7 +86,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/yara.jpg",
     city: "Iron Islands",
     email: "blackwind@gmail.com",
-    medium: "Full Stack Dev"
+    medium: "Piña Colada Enthusiast"
   },
 
   {
@@ -95,7 +95,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/stringer.jpg",
     city: "Baltimore",
     email: "collegestudent@gmail.com",
-    medium: "Pina Colada Enthusiast"
+    medium: "Piña Colada Enthusiast"
   },
 
   {
@@ -113,7 +113,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/mcnulty.jpg",
     city: "Baltimore",
     email: "copguy@gmail.com",
-    medium: "Pina Colada Enuthusiast"
+    medium: "Piña Colada Enthusiast"
   },
 
   {
@@ -122,7 +122,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/bunk.jpg",
     city: "Baltimore",
     email: "dissapointed@gmail.com",
-    medium: "Dev Coach"
+    medium: "Visual Artist"
   },
 
   {
@@ -131,7 +131,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/daniels.jpg",
     city: "Baltimore",
     email: "commish@gmail.com",
-    medium: "Back End Dev"
+    medium: "Developer"
   },
 
   {
@@ -140,7 +140,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/avon.jpg",
     city: "Baltimore",
     email: "king@gmail.com",
-    medium: "Project Manager"
+    medium: "Developer"
   },
 
   {
@@ -149,7 +149,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/elaine.jpg",
     city: "New York",
     email: "get_out@gmail.com",
-    medium: "UXD"
+    medium: "Visual Artist"
   },
 
   {
@@ -167,7 +167,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/kramer.jpg",
     city: "New York",
     email: "giddy_up@gmail.com",
-    medium: "Full Stack Dev"
+    medium: "Musician"
   },
 
   {
@@ -176,7 +176,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/george.jpg",
     city: "New York",
     email: "gettin_upset@gmail.com",
-    medium: "Wedding Planner"
+    medium: "Musician"
   },
 
   {
@@ -185,7 +185,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/walter.jpg",
     city: "Albuquerque",
     email: "who_knocks@gmail.com",
-    medium: "Scrum Master"
+    medium: "Photographer"
   },
 
   {
@@ -194,7 +194,7 @@ let profilesArray = [
     photo: "/Project2/public/assets/images/jesse.jpg",
     city: "Albuquerque",
     email: "science@gmail.com",
-    medium: "Project Manager"
+    medium: "Photographer"
   }
 ];
 
