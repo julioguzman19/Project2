@@ -87,7 +87,7 @@ table {
   border: solid white 2px;
   border-radius: 10px;
   -moz-border-radius: 10px;
-  width: auto; 
+  width: auto;
   height: 100px;
 }
 
@@ -98,7 +98,7 @@ table {
   border: solid white 2px;
   border-radius: 10px;
   -moz-border-radius: 10px;
-  width:50%;
+  width: 50%;
   height: auto;
   margin-bottom: 2%;
   margin-top: 2%;
@@ -108,4 +108,3 @@ td {
   height: 50px;
   vertical-align: bottom;
 }
- 

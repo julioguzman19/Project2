@@ -1,102 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Bangers|Indie+Flower|Pacifico&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bangers|Indie+Flower|Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/styles.css" />
     <title>ReadyMetGo</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="wrapper">
-        <div class="jumbotron jumbotron1">
-            <h1 class="display-4">Ready?</h1>
-            <div id="headText">
-                <p>Tell us a bit about yourself, and the skills you are looking for in potential collaborators.</p>
-            </div>
-            <hr>
-            <form>
-                <div class="form-row">
-                    <div class="col-md-6 mb-3">
-                        <label for="validationDefault01">First Name</label>
-                        <input type="text" class="form-control" id="validationDefault01" placeholder="First"
-                             required>
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <label for="validationDefault02">Last Name</label>
-                        <input type="text" class="form-control" id="validationDefault02" placeholder="Last"
-                            required>
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="col-md-6 mb-3">
-                        <label for="validationDefault03">City</label>
-                        <input type="text" class="form-control" id="validationDefault03" placeholder="City" required>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                        <label for="validationDefault04">State</label>
-                        <input type="text" class="form-control" id="validationDefault04" placeholder="State" required>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                        <label for="validationDefault05">Zip</label>
-                        <input type="text" class="form-control" id="validationDefault05" placeholder="Zip" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email Address (This is how you will contact/be contacted by your matches)</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="email@sample.com">
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Which of the below best describe you?</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                        <option>Developer</option>
-                        <option>Visual Artist</option>
-                        <option>Musician</option>
-                        <option>Photographer</option>
-                        <option>Piña Colada Enthusiast</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">What are you looking for?</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                        <option>Developers</option>
-                        <option>Visual Artists</option>
-                        <option>Musicians</option>
-                        <option>Photographers</option>
-                        <option>Piña Colada Enthusiasts</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label class="" for="exampleFormControlSelect1">Tell us more about your skills, the skills you are
-                        looking for in collaborators, and/or the project concept.</label>
-                    <textarea class="form-control col-md-12" aria-label="With textarea" placeholder="Go on, brag a little!"></textarea>
-                </div>
-                <label id="upload">Upload a photo to your profile!</label>
-                <div class="input-group mb-3">
-                    <div class="custom-file">
-                        <input type="file" class="custom-file-input" id="inputGroupFile01"
-                            aria-describedby="inputGroupFileAddon01">
-                        <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label>Link your awesome project repository, music video, or online gallery!</label>
-                    <input type="link" class="form-control" id="userPhoto" placeholder="www.github.com">
-                </div>
-            </form>
-            <a class="btn btn-primary btn-lg" href="/public/html/met.html" role="button">Ready?</a>
+      <div class="jumbotron jumbotron1">
+        <h1 class="display-4">Ready?</h1>
+        <div id="headText">
+          <p>
+            Tell us a bit about yourself, and the skills you are looking for in
+            potential collaborators.
+          </p>
         </div>
+        <hr />
+        <form>
+          <div class="form-row">
+            <div class="col-md-6 mb-3">
+              <label for="validationDefault01">First Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault01"
+                placeholder="First"
+                required
+              />
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="validationDefault02">Last Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault02"
+                placeholder="Last"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-6 mb-3">
+              <label for="validationDefault03">City</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault03"
+                placeholder="City"
+                required
+              />
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="validationDefault04">State</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault04"
+                placeholder="State"
+                required
+              />
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="validationDefault05">Zip</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault05"
+                placeholder="Zip"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1"
+              >Email Address (This is how you will contact/be contacted by your
+              matches)</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="email@sample.com"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1"
+              >Which of the below best describe you?</label
+            >
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Developer</option>
+              <option>Visual Artist</option>
+              <option>Musician</option>
+              <option>Photographer</option>
+              <option>Piña Colada Enthusiast</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1"
+              >What are you looking for?</label
+            >
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Developers</option>
+              <option>Visual Artists</option>
+              <option>Musicians</option>
+              <option>Photographers</option>
+              <option>Piña Colada Enthusiasts</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="" for="exampleFormControlSelect1"
+              >Tell us more about your skills, the skills you are looking for in
+              collaborators, and/or the project concept.</label
+            >
+            <textarea
+              class="form-control col-md-12"
+              aria-label="With textarea"
+              placeholder="Go on, brag a little!"
+            ></textarea>
+          </div>
+          <label id="upload">Upload a photo to your profile!</label>
+          <div class="input-group mb-3">
+            <div class="custom-file">
+              <input
+                type="file"
+                class="custom-file-input"
+                id="inputGroupFile01"
+                aria-describedby="inputGroupFileAddon01"
+              />
+              <label class="custom-file-label" for="inputGroupFile01"
+                >Choose file</label
+              >
+            </div>
+          </div>
+          <div class="form-group">
+            <label
+              >Link your awesome project repository, music video, or online
+              gallery!</label
+            >
+            <input
+              type="link"
+              class="form-control"
+              id="userPhoto"
+              placeholder="www.github.com"
+            />
+          </div>
+        </form>
+        <a
+          class="btn btn-primary btn-lg"
+          href="/public/html/met.html"
+          role="button"
+          >Ready?</a
+        >
+      </div>
     </div>
-
-
-
-
-</body>
-
+  </body>
 </html>
