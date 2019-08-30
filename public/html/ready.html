@@ -5,10 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--BootStrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--GoogleAPIs-->
     <link href="https://fonts.googleapis.com/css?family=Bangers|Indie+Flower|Pacifico&display=swap" rel="stylesheet">
+    <!--Reset CSS-->
+    <!--CSS-->
     <link rel="stylesheet" href="../styles/styles.css">
+    <!--JQUERY-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <title>ReadyMetGo</title>
 </head>
 
@@ -24,7 +30,7 @@
                 <div class="form-row">
                     <div class="col-md-6 mb-3">
                         <label for="validationDefault01">First Name</label>
-                        <input type="text" class="form-control" id="validationDefault01" placeholder="First"
+                        <input type="text" class="form-control" id="name" placeholder="First"
                              required>
                     </div>
                     <div class="col-md-6 mb-3">
@@ -36,7 +42,7 @@
                 <div class="form-row">
                     <div class="col-md-6 mb-3">
                         <label for="validationDefault03">City</label>
-                        <input type="text" class="form-control" id="validationDefault03" placeholder="City" required>
+                        <input type="text" class="form-control" id="city" placeholder="City" required>
                     </div>
                     <div class="col-md-3 mb-3">
                         <label for="validationDefault04">State</label>
@@ -49,7 +55,7 @@
                 </div>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Email Address (This is how you will contact/be contacted by your matches)</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
                         placeholder="email@sample.com">
                 </div>
                 <div class="form-group">
@@ -64,7 +70,7 @@
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlSelect1">What are you looking for?</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
+                    <select class="form-control" id="medium">
                         <option>Developers</option>
                         <option>Visual Artists</option>
                         <option>Musicians</option>
@@ -90,11 +96,39 @@
                     <input type="link" class="form-control" id="userPhoto" placeholder="www.github.com">
                 </div>
             </form>
-            <button class="btn btn-primary" type="submit">Ready?</button>
+            <button class="btn btn-primary submit" type="submit">Ready?</button>
         </div>
     </div>
 
-
+    <script type="text/javascript">
+        // Creating Front-end JavaScript which "POSTS" our form data to our express server
+        // On submit jQuery grabs all of the fields then sends a post request to our API
+        // API recognizes the route (/api/tables)... and then runs the associated code (found in api-routes.js)
+        // In this case the associated code "saves" the data to the friends.js
+        
+    
+        $(".submit").on("click", function(event) {
+          event.preventDefault();
+      
+          // Grabbing the form elements
+          let newProfile = {
+            name: $("#name").val().trim(),
+            //age: $("#age").val().trim(),
+            //photo: $("#photo").val().trim(),
+            city: $("#city").val().trim(),
+            email: $("#email").val().trim(),
+            medium: $("#medium").val().trim()
+          };
+    
+          $.post("/api/setprofiles", newProfile,function(data){
+                console.log("from ready.html Name: ", data.name);        
+        
+          })
+    
+        });
+    
+      
+      </script>
 
 
 </body>
