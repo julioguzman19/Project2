@@ -9,10 +9,7 @@ module.exports = function(app) {
     //userProfile will give you 4 attributes in newProfile on ready.html page
     //4 values we decided to get from user
     let userProfile = req.body;
-    console.log("from apiRoute.js : "userProfile);
+    console.log("from apiRoute.js : " + userProfile);
     res.json("test");
-
   });
 };
-
-
