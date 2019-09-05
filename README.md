@@ -26,3 +26,8 @@
 - MySQL Database
 - Object-Relational-Mapping (ORM)
 - Get/Post routes 
+
+Populate the Database using:
+
+    npx sequelize-cli db:seed:all
+

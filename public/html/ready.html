@@ -120,9 +120,9 @@
             medium: $("#medium").val().trim()
           };
     
-          $.post("/api/setprofiles", newProfile,function(data){
+          $.post("/api/setprofiles", newProfile, function(data){
                 console.log("from ready.html Name: ", data.name);        
-        
+                //window.location.href = "/met?" + data.name;
           })
     
         });
