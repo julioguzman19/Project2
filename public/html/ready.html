@@ -60,7 +60,7 @@
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlSelect1">Which of the below best describe you?</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
+                    <select class="form-control" id="medium">
                         <option>Developer</option>
                         <option>Visual Artist</option>
                         <option>Musician</option>
@@ -70,12 +70,12 @@
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlSelect1">What are you looking for?</label>
-                    <select class="form-control" id="medium">
-                        <option>Developers</option>
-                        <option>Visual Artists</option>
-                        <option>Musicians</option>
-                        <option>Photographers</option>
-                        <option>Piña Colada Enthusiasts</option>
+                    <select class="form-control" id="mediumPair">
+                        <option value="developer">Developers</option>
+                        <option value="visual artist">Visual Artists</option>
+                        <option value="musician">Musicians</option>
+                        <option value="photographer">Photographers</option>
+                        <option value="pina colada enthusiast">Piña Colada Enthusiasts</option>
                     </select>
                 </div>
                 <div class="form-group">
@@ -114,10 +114,12 @@
           let newProfile = {
             name: $("#name").val().trim(),
             //age: $("#age").val().trim(),
-            //photo: $("#photo").val().trim(),
+            photo: $("#upload").val().trim(),
             city: $("#city").val().trim(),
             email: $("#email").val().trim(),
-            medium: $("#medium").val().trim()
+            medium: $("#medium").val().trim(),
+            mediumPair: $("#mediumPair").val().trim()
+
           };
     
           $.post("/api/setprofiles", newProfile, function(data){
