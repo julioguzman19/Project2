@@ -9,6 +9,11 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Bangers|Indie+Flower|Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/styles.css">
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
     <title>Results</title>
     </head>
 
@@ -18,16 +23,48 @@
                 <h1>Go!</h1>
                 <br>
                 <hr>
-                <a href=""><img class="resultImage" src="https://via.placeholder.com/150"></a> 
-                <h1 class="resultName">John Doe</h1>
-                <p class="resultLocation">Salt Lake City, UT</p>
-                <p class="resultSkill">Developer</p>
-                <p class="resultSearch">Searching for </p>
-                <p class="resultBlurb">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae cumque nam ea vel magni! Odit, praesentium aliquam ut culpa facilis rem nisi laudantium numquam aliquid voluptatum qui eius iusto quam?</p>
-                <p><a href="" class="resultLink">www.github.com</a></p>
-                <p class="resultEmail">myemail@gmail.com</p>
-                <p><button class="btn btn-primary" type="submit">Back</button></p>
+                <div id="dynamicResult">
+                </div>
             </div>
+    <script>
+    $(document).ready(function() {
+        let search = window.location.search;
+        search = search.replace("?", "");
+        search = search.split("=");
+        console.log(search[1]);
+        $.ajax({
+          url: "/api/setprofiles",
+          method: "GET"
+        })
+          .then(function(response) {
+            let results = response;
+            console.log(search);
+            for (i = 0; i < results.length; i++) {
+              if (results[i].id == search[1]) {
+                innerHTML = '<a href=""><img class="resultImage" src="';
+                innerHTML += results[i].photo;
+                innerHTML += '"></a> <h1 class="resultName">';
+                innerHTML += results[i].name;
+                innerHTML += '</h1><p class="resultLocation">';
+                innerHTML += results[i].city;
+                innerHTML += '</p><p class="resultSkill">';
+                innerHTML += results[i].medium;
+                innerHTML += '</p><p class="resultSearch">Searching for ';
+                innerHTML += results[i].mediumPair;
+                // innerHTML += '</p><p class="resultBlurb">';
+                // innerHTML += results[i].bio;
+                // innerHTML += '</p><p><a href="" class="resultLink">';
+                // innerHTML += results[i].link;
+                // innerHTML += '</a>;'
+                innerHTML += '</p><p class="resultEmail">';
+                innerHTML += results[i].email;
+                innerHTML += '</p><p><button class="btn btn-primary" type="submit" onclick="javascript:history.back()">Back</button></p>';
+                $("#dynamicResult").append(innerHTML);
+              }
+            }
+          })
+    });
+    </script>
 </body>
 
 </html>

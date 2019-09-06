@@ -64,29 +64,36 @@
         $.ajax({
           url: "/api/setprofiles",
           method: "GET"
-        }).then(function(response) {
-          let results = response;
-          console.log(search);
-          for (i = 0; i < results.length; i++) {
-            if (results[i].medium == search) {
-              innerHTML = '<tr><th scope="row"><img class="profileImg" src="';
-              innerHTML += results[i].photo;
-              innerHTML +=
-                '" title="Profile Pic" alt="Profile Pic"/></th><td class="align-middle">';
-              innerHTML += results[i].name;
-              innerHTML += '</td><td class="align-middle">';
-              innerHTML += results[i].medium;
-              innerHTML += '</td><td class="align-middle">';
-              innerHTML += results[i].city;
-              innerHTML +=
-                '</td><td class="align-middle"><button id="' +
-                results[i].id +
-                '"class="btn btn-primary" type="submit">Meet</button></td></tr>';
-              console.log(results[i]);
-              $("#dynamicUsers").append(innerHTML);
+        })
+          .then(function(response) {
+            let results = response;
+            console.log(search);
+            for (i = 0; i < results.length; i++) {
+              if (results[i].medium == search) {
+                innerHTML = '<tr><th scope="row"><img class="profileImg" src="';
+                innerHTML += results[i].photo;
+                innerHTML +=
+                  '" title="Profile Pic" alt="Profile Pic"/></th><td class="align-middle">';
+                innerHTML += results[i].name;
+                innerHTML += '</td><td class="align-middle">';
+                innerHTML += results[i].medium;
+                innerHTML += '</td><td class="align-middle">';
+                innerHTML += results[i].city;
+                innerHTML +=
+                  '</td><td class="align-middle"><button id="' +
+                  results[i].id +
+                  '"class="btn btn-primary submit" type="submit">Meet</button></td></tr>';
+                console.log(results[i]);
+                $("#dynamicUsers").append(innerHTML);
+              }
             }
-          }
-        });
+          })
+          .then(function() {
+            $(".submit").on("click", function(event) {
+              event.preventDefault();
+              window.location.href = "/results?profile_id=" + this.id;
+            });
+          });
       });
     </script>
   </body>
