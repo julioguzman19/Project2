@@ -4,7 +4,9 @@ const Op = db.Sequelize.Op;
 module.exports = {
   addUser: function(user, cb) {
     db.Users.create(user).then(function(res, err) {
-      if (err) throw err;
+      if (err) {
+        throw err;
+      }
       console.log(res);
       cb(res);
     });
@@ -18,7 +20,9 @@ module.exports = {
         }
       }
     }).then(function(res, err) {
-      if (err) throw err;
+      if (err) {
+        throw err;
+      }
       // Could write a function to filter the results
       cb(res);
     });
