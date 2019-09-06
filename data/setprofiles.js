@@ -52,7 +52,6 @@ let profilesArray = [
     email: "flutist@yahoo.com",
     medium: "Musician",
     mediumPair: "Musician"
-
   },
 
   {
@@ -64,7 +63,6 @@ let profilesArray = [
     email: "freefolk@gmail.com",
     medium: "Musician",
     mediumPair: "Musician"
-
   },
 
   {
@@ -76,7 +74,6 @@ let profilesArray = [
     email: "brotherluver@yahoo.com",
     medium: "Photographer",
     mediumPair: "Photographer"
-
   },
 
   {
@@ -88,7 +85,6 @@ let profilesArray = [
     email: "starkrebel@gmail.com",
     medium: "Photographer",
     mediumPair: "Photographer"
-
   },
 
   {
@@ -99,8 +95,7 @@ let profilesArray = [
     city: "Winterfell",
     email: "needle@gmail.com",
     medium: "Piña Colada Enthusiast",
-    mediumPair: "Piña Colada Enthusiast",
-
+    mediumPair: "Piña Colada Enthusiast"
   },
 
   {
@@ -111,8 +106,7 @@ let profilesArray = [
     city: "Iron Islands",
     email: "blackwind@gmail.com",
     medium: "Piña Colada Enthusiast",
-    mediumPair: "Piña Colada Enthusiast",
-
+    mediumPair: "Piña Colada Enthusiast"
   },
 
   {
@@ -123,8 +117,7 @@ let profilesArray = [
     city: "Baltimore",
     email: "collegestudent@gmail.com",
     medium: "Piña Colada Enthusiast",
-    mediumPair: "Piña Colada Enthusiast",
-
+    mediumPair: "Piña Colada Enthusiast"
   },
 
   {
@@ -136,7 +129,6 @@ let profilesArray = [
     email: "omar_coming@gmail.com",
     medium: "Full Stack Dev",
     mediumPair: "Full Stack Dev"
-
   },
 
   {
@@ -148,7 +140,6 @@ let profilesArray = [
     email: "copguy@gmail.com",
     medium: "Piña Colada Enthusiast",
     mediumPair: "Full Stack Dev"
-
   },
 
   {
@@ -159,7 +150,6 @@ let profilesArray = [
     email: "dissapointed@gmail.com",
     medium: "Visual Artist",
     mediumPair: "Full Stack Dev"
-
   },
 
   {
@@ -171,7 +161,6 @@ let profilesArray = [
     email: "commish@gmail.com",
     medium: "Developer",
     mediumPair: "Full Stack Dev"
-
   },
 
   {
@@ -183,7 +172,6 @@ let profilesArray = [
     email: "king@gmail.com",
     medium: "Developer",
     mediumPair: "Developer"
-
   },
 
   {
@@ -195,7 +183,6 @@ let profilesArray = [
     email: "get_out@gmail.com",
     medium: "Visual Artist",
     mediumPair: "Developer"
-
   },
 
   {
@@ -207,7 +194,6 @@ let profilesArray = [
     email: "whats_the_deal@gmail.com",
     medium: "Musician",
     mediumPair: "Musician"
-
   },
 
   {
@@ -219,7 +205,6 @@ let profilesArray = [
     email: "giddy_up@gmail.com",
     medium: "Musician",
     mediumPair: "Musician"
-
   },
 
   {
@@ -231,7 +216,6 @@ let profilesArray = [
     email: "gettin_upset@gmail.com",
     medium: "Musician",
     mediumPair: "Musician"
-
   },
 
   {
@@ -243,7 +227,6 @@ let profilesArray = [
     email: "who_knocks@gmail.com",
     medium: "Photographer",
     mediumPair: "Photographer"
-
   },
 
   {
@@ -255,7 +238,6 @@ let profilesArray = [
     email: "science@gmail.com",
     medium: "Photographer",
     mediumPair: "Photographer"
-
   }
 ];
 
