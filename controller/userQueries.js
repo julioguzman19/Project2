@@ -25,6 +25,7 @@ module.exports = {
       }
       // Could write a function to filter the results
       cb(res);
+      console.log(res);
     });
   }
 };

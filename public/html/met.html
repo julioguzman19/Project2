@@ -15,6 +15,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../styles/styles.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
     <title>ReadyMetGo</title>
   </head>
 
@@ -40,45 +45,49 @@
                 <th scope="col"></th>
               </tr>
             </thead>
-            <tbody>
-              <tr>
-                <th scope="row"></th>
-                <td class="align-middle">Mark</td>
-                <td class="align-middle">Developer</td>
-                <td class="align-middle">Salt Lake City</td>
-                <td class="align-middle">
-                  <button class="btn btn-primary" type="submit">Meet</button>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">
-                  <img
-                    class="profileImg"
-                    src="../assets/pexels-photo-733872.jpeg"
-                    title="White flower"
-                    alt="Flower"
-                  />
-                </th>
-                <td class="align-middle">Jessica</td>
-                <td class="align-middle">Visual Artist</td>
-                <td class="align-middle">Denver</td>
-                <td class="align-middle">
-                  <button class="btn btn-primary" type="submit">Meet</button>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row"></th>
-                <td class="align-middle">Larry</td>
-                <td class="align-middle">Musician</td>
-                <td class="align-middle">Los Angeles</td>
-                <td class="align-middle">
-                  <button class="btn btn-primary" type="submit">Meet</button>
-                </td>
-              </tr>
-            </tbody>
+            <tbody id="dynamicUsers"></tbody>
           </table>
         </div>
       </div>
     </div>
+    <script>
+      $(document).ready(function() {
+        let search = window.location.search;
+        search = search.replace("?", "");
+        search = search.split("=");
+        search = search[1].replace("%20", " ");
+        search = search.replace("%20", " ");
+        if (search == "Pi%C3%B1a Colada Enthusiast") {
+          search = "Piña Colada Enthusiast";
+        }
+        console.log(search);
+        $.ajax({
+          url: "/api/setprofiles",
+          method: "GET"
+        }).then(function(response) {
+          let results = response;
+          console.log(search);
+          for (i = 0; i < results.length; i++) {
+            if (results[i].medium == search) {
+              innerHTML = '<tr><th scope="row"><img class="profileImg" src="';
+              innerHTML += results[i].photo;
+              innerHTML +=
+                '" title="Profile Pic" alt="Profile Pic"/></th><td class="align-middle">';
+              innerHTML += results[i].name;
+              innerHTML += '</td><td class="align-middle">';
+              innerHTML += results[i].medium;
+              innerHTML += '</td><td class="align-middle">';
+              innerHTML += results[i].city;
+              innerHTML +=
+                '</td><td class="align-middle"><button id="' +
+                results[i].id +
+                '"class="btn btn-primary" type="submit">Meet</button></td></tr>';
+              console.log(results[i]);
+              $("#dynamicUsers").append(innerHTML);
+            }
+          }
+        });
+      });
+    </script>
   </body>
 </html>

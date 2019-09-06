@@ -1,11 +1,14 @@
 // Pull in the characters
 //const profiles = require("../data/setprofiles.js");
 const userQueries = require("../controller/userQueries");
+const db = require("../models");
 
 // Export routes
 module.exports = function(app) {
   app.get("/api/setprofiles", function(req, res) {
-    res.json(profiles);
+    db.Users.findAll({}).then(function(dbUser) {
+      res.json(dbUser);
+    });
   });
 
   //app.post("/api/setprofiles.js", function(req, res) {
