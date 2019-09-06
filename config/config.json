@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "bootcamp4321",
+    "password": "password",
     "database": "readymetgo",
     "host": "localhost",
     "dialect": "mysql"

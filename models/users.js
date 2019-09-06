@@ -8,20 +8,20 @@ module.exports = function(sequelize, DataTypes) {
         notEmpty: true
       }
     },
-    age: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-      validate: {
-        isNumeric: true,
-        notEmpty: true
-      }
-    },
+    // age: {
+    //   type: DataTypes.INTEGER,
+    //   allowNull: false,
+    //   validate: {
+    //     isNumeric: true,
+    //     notEmpty: true
+    //   }
+    // },
     photo: {
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
-        notEmpty: true,
-        isUrl: true
+        notEmpty: true
+        // isUrl: true
       }
     },
     city: {
@@ -40,6 +40,13 @@ module.exports = function(sequelize, DataTypes) {
       }
     },
     medium: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        notEmpty: true
+      }
+    },
+    mediumPair: {
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
