@@ -52,6 +52,20 @@ module.exports = function(sequelize, DataTypes) {
       validate: {
         notEmpty: true
       }
+    },
+    bio: {
+      type: DataTypes.STRING,
+      // allowNull: true,
+      validate: {
+        notEmpty: true
+      }
+    },
+    link: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      validate: {
+        notEmpty: true
+      }
     }
   });
   return Users;

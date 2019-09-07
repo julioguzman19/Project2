@@ -7,7 +7,9 @@ let profilesArray = [
     city: "Essos",
     email: "dragonqueen@gmail.com",
     medium: "Developer",
-    mediumPair: "Developer"
+    mediumPair: "Developer",
+    bio: "Why did I die.",
+    link: "https://www.linkedin.com/in/cateashley/"
   },
 
   {
@@ -18,7 +20,9 @@ let profilesArray = [
     city: "The Wall",
     email: "kingofthenorth@gmail.com",
     medium: "Developer",
-    mediumPair: "Developer"
+    mediumPair: "Developer",
+    bio: "I don't want to be king!",
+    link: "https://www.linkedin.com/in/bryce-senninger-7774a6184/"
   },
 
   {
@@ -29,7 +33,9 @@ let profilesArray = [
     city: "Winterfell",
     email: "redweddinglover@yahoo.com",
     medium: "Visual Artist",
-    mediumPair: "Visual Artist"
+    mediumPair: "Developer",
+    bio: "I love weddings. Would love to attend more of them.",
+    link: "https://www.linkedin.com/in/julioguzman1/"
   },
 
   {
@@ -40,7 +46,9 @@ let profilesArray = [
     city: "Winterfell",
     email: "crowseye@gmail.com",
     medium: "Visual Artist",
-    mediumPair: "Visual Artist"
+    mediumPair: "Developer",
+    bio: "I somehow ended up king. What a waste.",
+    link: "https://www.linkedin.com"
   },
 
   {
@@ -51,7 +59,9 @@ let profilesArray = [
     city: "Highgarden",
     email: "flutist@yahoo.com",
     medium: "Musician",
-    mediumPair: "Musician"
+    mediumPair: "Developer",
+    bio: "What's another husband?",
+    link: "https://www.linkedin.com/in/cateashley/"
   },
 
   {
@@ -62,7 +72,9 @@ let profilesArray = [
     city: "Beyond the Wall",
     email: "freefolk@gmail.com",
     medium: "Musician",
-    mediumPair: "Musician"
+    mediumPair: "Developer",
+    bio: "Why did I also die.",
+    link: "https://www.linkedin.com/in/cateashley/"
   },
 
   {
@@ -73,7 +85,9 @@ let profilesArray = [
     city: "Westeros",
     email: "brotherluver@yahoo.com",
     medium: "Photographer",
-    mediumPair: "Photographer"
+    mediumPair: "Developer",
+    bio: "That brother of mine...",
+    link: "https://www.linkedin.com/in/cateashley/"
   },
 
   {
@@ -84,7 +98,9 @@ let profilesArray = [
     city: "Winterfell",
     email: "starkrebel@gmail.com",
     medium: "Photographer",
-    mediumPair: "Photographer"
+    mediumPair: "Developer",
+    bio: "Never a Jonas sister",
+    link: "https://www.linkedin.com/in/cateashley/"
   },
 
   {
@@ -95,7 +111,9 @@ let profilesArray = [
     city: "Winterfell",
     email: "needle@gmail.com",
     medium: "Piña Colada Enthusiast",
-    mediumPair: "Piña Colada Enthusiast"
+    mediumPair: "Developer",
+    bio: "Needles aren't for sewing",
+    link: "https://www.linkedin.com/in/cateashley/"
   },
 
   {
@@ -106,7 +124,9 @@ let profilesArray = [
     city: "Iron Islands",
     email: "blackwind@gmail.com",
     medium: "Piña Colada Enthusiast",
-    mediumPair: "Piña Colada Enthusiast"
+    mediumPair: "Developer",
+    bio: "Those ladies though",
+    link: "https://www.linkedin.com/in/cateashley/"
   },
 
   {
@@ -117,7 +137,9 @@ let profilesArray = [
     city: "Baltimore",
     email: "collegestudent@gmail.com",
     medium: "Piña Colada Enthusiast",
-    mediumPair: "Piña Colada Enthusiast"
+    mediumPair: "Developer",
+    bio: "I'm a good person",
+    link: "https://www.linkedin.com/in/cateashley/"
   },
 
   {
