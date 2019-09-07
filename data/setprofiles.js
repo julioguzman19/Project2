@@ -8,7 +8,8 @@ let profilesArray = [
     email: "dragonqueen@gmail.com",
     medium: "Photographer",
     mediumPair: "Developer",
-    bio: "Seeking web developer, specifically someone with full stack experience, to design a site to host a photo album to document me and my nephew's exotic travels.",
+    bio:
+      "Seeking web developer, specifically someone with full stack experience, to design a site to host a photo album to document me and my nephew's exotic travels.",
     link: "https://www.linkedin.com/in/cateashley/"
   },
 
@@ -73,7 +74,8 @@ let profilesArray = [
     email: "freefolk@gmail.com",
     medium: "Visual Artist",
     mediumPair: "Developer",
-    bio: "Looking for a developer to help me build a site to showcase my visual art. Jon Snow offered to do it, but he knows nothing. Also willing to collaborate and provide art if you'd like to incorporate some of my visual art and graphic design into any unrelated project.",
+    bio:
+      "Looking for a developer to help me build a site to showcase my visual art. Jon Snow offered to do it, but he knows nothing. Also willing to collaborate and provide art if you'd like to incorporate some of my visual art and graphic design into any unrelated project.",
     link: "https://www.linkedin.com/in/cateashley/"
   },
 
@@ -238,7 +240,8 @@ let profilesArray = [
     email: "big_time_architect@gmail.com",
     medium: "Piña Colada Enthusiast",
     mediumPair: "Developer",
-    bio: "Boy. Do I have a story for you. Met this incredible woman, gorgeous. Drop. Dead. Gorgeous. Best part is, she doesn't appear to be even slightly repulsed by the sight of me. Great, right? Wrong. I opened my big mouth and may have led her to believe that I'm an architect...looking for a developer ASAP to get me a passable sham site. You pull this off, Piña Coladas are on me for a year.",
+    bio:
+      "Boy. Do I have a story for you. Met this incredible woman, gorgeous. Drop. Dead. Gorgeous. Best part is, she doesn't appear to be even slightly repulsed by the sight of me. Great, right? Wrong. I opened my big mouth and may have led her to believe that I'm an architect...looking for a developer ASAP to get me a passable sham site. You pull this off, Piña Coladas are on me for a year.",
     link: "https://github.com/bryce-senninger"
   },
 
@@ -251,7 +254,8 @@ let profilesArray = [
     email: "who_knocks@gmail.com",
     medium: "Photographer",
     mediumPair: "Developer",
-    bio: "Looking for a full stack developer to design an online webstore to sell my...product.",
+    bio:
+      "Looking for a full stack developer to design an online webstore to sell my...product.",
     link: "https://github.com/bryce-senninger"
   },
 
