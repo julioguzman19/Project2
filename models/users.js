@@ -55,14 +55,14 @@ module.exports = function(sequelize, DataTypes) {
     },
     bio: {
       type: DataTypes.STRING,
-      allowNull: false,
+      // allowNull: true,
       validate: {
         notEmpty: true
       }
     },
     link: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
       validate: {
         notEmpty: true
       }
