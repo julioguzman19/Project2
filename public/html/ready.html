@@ -219,7 +219,7 @@
             <input
               type="link"
               class="form-control"
-              id="userLink"
+              id="link"
               placeholder="www.github.com"
             />
           </div>
@@ -255,7 +255,11 @@
             .trim(),
           mediumPair: $("#mediumPair")
             .val()
-            .trim()
+            .trim(),
+          bio: $("#bio")
+            .val()
+            .trim(),
+          link: $("#link").val()
         };
 
         $.post("/api/setprofiles", newProfile, function(data) {
