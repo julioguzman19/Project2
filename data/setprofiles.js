@@ -7,7 +7,10 @@ let profilesArray = [
     city: "Essos",
     email: "dragonqueen@gmail.com",
     medium: "Developer",
-    mediumPair: "Developer"
+    mediumPair: "Developer",
+    bio:
+      "I am Queen Daenerys Stormborn of the House Targaryen, the First of Her Name, Queen of the Andals, the Rhoynar and the First Men, Lady of the Seven Kingdoms and Protector of the Realm, Lady of Dragonstone, Queen of Meereen, Khaleesi of the Great Grass Sea, the Unburnt, Breaker of Chains and Mother of Dragons.",
+    link: "https://www.linkedin.com/in/cateashley/"
   },
 
   {
@@ -18,7 +21,9 @@ let profilesArray = [
     city: "The Wall",
     email: "kingofthenorth@gmail.com",
     medium: "Developer",
-    mediumPair: "Developer"
+    mediumPair: "Developer",
+    bio: "I don't want to be king!",
+    link: "https://www.linkedin.com/in/bryce-senninger-7774a6184/"
   },
 
   {
@@ -29,7 +34,9 @@ let profilesArray = [
     city: "Winterfell",
     email: "redweddinglover@yahoo.com",
     medium: "Visual Artist",
-    mediumPair: "Visual Artist"
+    mediumPair: "Visual Artist",
+    bio: "I love weddings. Would love to attend more of them.",
+    link: "https://www.linkedin.com/in/julioguzman1/"
   },
 
   {
@@ -40,7 +47,9 @@ let profilesArray = [
     city: "Winterfell",
     email: "crowseye@gmail.com",
     medium: "Visual Artist",
-    mediumPair: "Visual Artist"
+    mediumPair: "Visual Artist",
+    bio: "I somehow ended up king. What a waste.",
+    link: "https://www.linkedin.com"
   },
 
   {
