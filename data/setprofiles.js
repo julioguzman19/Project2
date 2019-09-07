@@ -6,9 +6,9 @@ let profilesArray = [
       "https://vignette.wikia.nocookie.net/gameofthrones/images/e/ee/QueenDaenerysTargaryenIronThrone.PNG/revision/latest?cb=20190520173137",
     city: "Essos",
     email: "dragonqueen@gmail.com",
-    medium: "Developer",
+    medium: "Photographer",
     mediumPair: "Developer",
-    bio: "Why did I die.",
+    bio: "Seeking web developer, specifically someone with full stack experience, to design a site to host a photo album to document me and my nephew's exotic travels.",
     link: "https://www.linkedin.com/in/cateashley/"
   },
 
@@ -19,9 +19,9 @@ let profilesArray = [
       "https://pbs.twimg.com/profile_images/901947348699545601/hqRMHITj_400x400.jpg",
     city: "The Wall",
     email: "kingofthenorth@gmail.com",
-    medium: "Developer",
+    medium: "Musician",
     mediumPair: "Developer",
-    bio: "I don't want to be king!",
+    bio: "Looking for someone to build a website for my free-folk band.",
     link: "https://www.linkedin.com/in/bryce-senninger-7774a6184/"
   },
 
@@ -71,9 +71,9 @@ let profilesArray = [
       "https://vignette.wikia.nocookie.net/lucerne/images/d/d5/Ygritte_Cover.jpg/revision/latest?cb=20130505150909",
     city: "Beyond the Wall",
     email: "freefolk@gmail.com",
-    medium: "Musician",
+    medium: "Visual Artist",
     mediumPair: "Developer",
-    bio: "Why did I also die.",
+    bio: "Looking for a developer to help me build a site to showcase my visual art. Jon Snow offered to do it, but he knows nothing. Also willing to collaborate and provide art if you'd like to incorporate some of my visual art and graphic design into any unrelated project.",
     link: "https://www.linkedin.com/in/cateashley/"
   },
 
@@ -235,9 +235,11 @@ let profilesArray = [
     photo:
       "https://content.linkedin.com/content/dam/business/sales-solutions/global/en_US/blog/2017/09/what-george-costanza-can-teach-you-about-selling.png",
     city: "New York",
-    email: "gettin_upset@gmail.com",
-    medium: "Musician",
-    mediumPair: "Musician"
+    email: "big_time_architect@gmail.com",
+    medium: "Piña Colada Enthusiast",
+    mediumPair: "Developer",
+    bio: "Boy. Do I have a story for you. Met this incredible woman, gorgeous. Drop. Dead. Gorgeous. Best part is, she doesn't appear to be even slightly repulsed by the sight of me. Great, right? Wrong. I opened my big mouth and may have led her to believe that I'm an architect...looking for a developer ASAP to get me a passable sham site. You pull this off, Piña Coladas are on me for a year.",
+    link: "https://github.com/bryce-senninger"
   },
 
   {
@@ -248,7 +250,9 @@ let profilesArray = [
     city: "Albuquerque",
     email: "who_knocks@gmail.com",
     medium: "Photographer",
-    mediumPair: "Photographer"
+    mediumPair: "Developer",
+    bio: "Looking for a full stack developer to design an online webstore to sell my...product.",
+    link: "https://github.com/bryce-senninger"
   },
 
   {
